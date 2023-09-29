@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEDF55FD-F043-4181-8F19-E45C6E1FF938}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Pictures\DatabaseDiagram.jpg = ..\..\..\OneDrive\Pictures\DatabaseDiagram.jpg
+		..\..\..\Downloads\freshProperties.sql = ..\..\..\Downloads\freshProperties.sql
+		Queries.txt = Queries.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1673A06E-4C94-4F66-A1FC-DCD636BE5980}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8CC9655-BD52-4A94-8691-D7468AFDF76F}
+	EndGlobalSection
+EndGlobal
