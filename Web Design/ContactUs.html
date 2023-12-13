@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design - Final Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="hh1">Contact Us</h1>
+  
+  <nav id="pages" class="pages">
+    <a href="Index.html" class="navigation">Home</a>
+    <a href="About.html" class="navigation">About Us</a>
+    <a href="Join.html" class="navigation">Join Our Page</a>
+    <a href="ContactUs.html" class="navigation">Contact Us • Custom Order</a>
+  </nav>
+
+<p>Contact Us:</p>
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Unravel your creation..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div> 
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+
+  <p>Make a Payment:</p>
+
+
+  <div class="row">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+  
+          <div class="row">
+            <div class="col-50">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="New York">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="NY">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;">VISA</i>
+                <i class="fa fa-cc-amex" style="color:blue;">AMEX</i>
+                <i class="fa fa-cc-mastercard" style="color:red;">MASTERCARD</i>
+                <i class="fa fa-cc-discover" style="color:orange;">DISCOVER</i>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="expyear">Exp Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="col-50">
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+          </label>
+          <input type="submit" value="Continue to checkout" class="btn">
+        </form>
+      </div>
+    </div>
+  
+    <div class="col-25">
+      <div class="container">
+        <h4>Cart
+          <span class="price" style="color:black">
+            <i class="fa fa-shopping-cart"></i>
+            <b>0</b>
+          </span>
+        </h4>
+        <p><a href="#"></a> <span class="price"></span></p>
+        <p><a href="#"></a> <span class="price"></span></p>
+        <p><a href="#"></a> <span class="price"></span></p>
+        <p><a href="#"></a> <span class="price"></span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>$</b></span></p>
+      </div>
+    </div>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+</div> 
+
+  
+
+</body>
+</html>
